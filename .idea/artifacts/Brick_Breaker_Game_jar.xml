@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Brick Breaker Game:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Brick_Breaker_Game_jar</output-path>
+    <root id="archive" name="Brick Breaker Game.jar">
+      <element id="module-output" name="Brick Breaker Game" />
+    </root>
+  </artifact>
+</component>
