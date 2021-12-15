@@ -44,7 +44,9 @@ public class Game extends JPanel implements ActionListener {
         // player
         player = new Player("", 310);
         // ball
-        ball = new Ball(120, 350, -1, -2);
+        ball = new Ball((int)(Math.random() * (600 - 1) + 1),
+                (int)(Math.random() * (player.getPlayerX() + 20 - mapGenerator.getMapHeight() + 50) + mapGenerator.getMapHeight() + 50),
+                -1, -2);
         // bricks
         totalBricks = 21;
         // timer

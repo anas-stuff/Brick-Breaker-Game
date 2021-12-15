@@ -51,4 +51,7 @@ public class MapGenerator {
     public int getBlockHeight() {
         return blockHeight;
     }
+    public int getMapHeight() {
+        return blockHeight * map.length;
+    }
 }
